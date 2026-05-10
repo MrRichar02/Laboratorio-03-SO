@@ -1,3 +1,5 @@
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/MrRichar02/Laboratorio-03-SO)
+
 # <img width="632" height="369" alt="image" src="https://github.com/user-attachments/assets/4262d988-f49a-494f-beac-357f66259147" />
 
 
