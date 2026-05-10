@@ -18,6 +18,7 @@ int traducir(Registro r, int va) {
 int main() {
   Registro procA = {32, 64};  /* base=32, bounds=64 */
   Registro procB = {128, 80}; /* base=128, bounds=80 */
+  Registro procC = {0, 32}; /* base=0, bounds=32 */
   int vas[] = {0, 10, 63, 64, 100};
   int n = sizeof(vas) / sizeof(vas[0]);
 
@@ -30,6 +31,12 @@ int main() {
   printf("--- Proceso B (base=%d, bounds=%d) ---\n", procB.base, procB.bounds);
   for (int i = 0; i < n; i++) {
     int pa = traducir(procB, vas[i]);
+    if (pa != -1)
+      printf(" VA=%3d -> PA=%3d\n", vas[i], pa);
+  }
+  printf("--- Proceso C (base=%d, bounds=%d) ---\n", procC.base, procC.bounds);
+  for (int i = 0; i < n; i++) {
+    int pa = traducir(procC, vas[i]);
     if (pa != -1)
       printf(" VA=%3d -> PA=%3d\n", vas[i], pa);
   }
