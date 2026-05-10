@@ -1,4 +1,5 @@
-# ![][image1]
+# <img width="632" height="369" alt="image" src="https://github.com/user-attachments/assets/4262d988-f49a-494f-beac-357f66259147" />
+
 
 **Laboratorio de Sistemas Operativos Gestión de Memoria**  
 **Practica No. 3**
